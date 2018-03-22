@@ -18,11 +18,11 @@ public class Pathfinder : MonoBehaviour {
             float rNum = Random.Range(0f,1.0f);
             if (rNum < .25f)
             {
-                transform.Rotate(0, 0, 90);
+                transform.Rotate(0, 90, 0);
             }
             else if (rNum >= .25f && rNum < .5f)
             {
-                transform.Rotate(0, 0, -90);
+                transform.Rotate(0, -90, 0);
             }
             else if (rNum >=.99f)
             {
